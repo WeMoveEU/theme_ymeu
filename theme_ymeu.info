@@ -1,0 +1,44 @@
+name = YouMoveEU
+core = 7.x
+
+version = "7.x-1.0"
+project = "theme_ymeu"
+datestamp = "1654589450"
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Regions
+;;;;;;;;;;;;;;;;;;;;;
+
+regions[navigation]     = 'Navigation'
+regions[top]            = 'Top'
+regions[highlighted]    = 'Highlighted'
+regions[help]           = 'Help'
+regions[content]        = 'Content'
+regions[sidebar_first]  = 'Primary'
+regions[sidebar_second] = 'Secondary'
+regions[footer_top]     = 'Footer Top'
+regions[footer]         = 'Footer'
+
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Stylesheets
+;;;;;;;;;;;;;;;;;;;;;
+
+stylesheets[all][] = assets/css/style.css
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Scripts
+;;;;;;;;;;;;;;;;;;;;;
+
+scripts[] = assets/js/popper.min.js
+scripts[] = assets/bootstrap/bootstrap-5.0.2/dist/js/bootstrap.min.js
+scripts[] = assets/js/jquery.validate.min.js
+scripts[] = assets/js/webform.js
+
+;;;;;;;;;;;;;;;;;;;;;
+;; FEATURES
+;;;;;;;;;;;;;;;;;;;;;
+
+features[] = logo
+features[] = favicon
+features[] = main_menu

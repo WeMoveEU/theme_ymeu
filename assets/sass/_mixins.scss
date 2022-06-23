@@ -1,0 +1,38 @@
+@mixin title($font-size, $line-height) {
+  font-size: $font-size;
+  font-family: $headings-font-family;
+  //font-weight: $headings-font-weight-light;
+  font-weight: $headings-font-weight;
+  line-height: $line-height;
+  color: $blue-dark;
+  text-transform: uppercase;
+}
+
+@mixin title-link($font-size, $line-height) {
+  @include title($font-size, $line-height);
+  transition: color linear 0.2s;
+
+  &:hover {
+    color: $blue;
+  }
+}
+
+@mixin link-more() {
+  color: $primary;
+  font-size: $input-btn-font-size;
+  font-family: $btn-font-family;
+  font-weight: $btn-font-weight;
+  line-height: $input-btn-line-height;
+
+  &:after {
+    content: ' →';
+  }
+}
+
+@mixin title-block() {
+  @include title-link($h5-font-size, $line-height-h5);
+
+  @include media-breakpoint-up(md) {
+    margin-bottom: 2.2rem;
+  }
+}
