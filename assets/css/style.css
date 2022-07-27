@@ -9376,6 +9376,7 @@ table tr.odd {
   background-size: cover;
   padding-top: 30px;
   padding-bottom: 30px;
+  display: none;
 }
 .block-youmove-banner .content {
   color: #fff;
@@ -9400,6 +9401,7 @@ table tr.odd {
   background-color: #ecfcff;
   padding-top: 30px;
   padding-bottom: 30px;
+  display: none;
 }
 .block-how-it-works .content {
   color: #21194F;

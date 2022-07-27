@@ -824,6 +824,9 @@ table {
     padding-top: 63px;
     padding-bottom: 50px;
   }
+
+  //Temporarily hide the block until the content is ready
+  display: none;
 }
 
 // BLOCK - HOW IT WORKS
@@ -925,6 +928,9 @@ table {
       }
     }
   }
+
+  //Temporarily hide until the content is ready
+  display: none;
 }
 
 // BLOCK - YOUMOVE CAMPAIGNS
