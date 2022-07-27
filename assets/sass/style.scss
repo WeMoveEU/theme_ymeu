@@ -146,7 +146,7 @@ form {
     }
   }
 
-  // Description 
+  // Description
   .description {
     font-size: $font-size-sm;
     line-height: $line-height-xs;
@@ -155,7 +155,7 @@ form {
     margin-bottom: 1rem;
   }
 
-  // Fieldset 
+  // Fieldset
   fieldset {
     legend {
       @extend .form-label;
@@ -193,8 +193,8 @@ form {
       margin-top: map-get($spacers, 2);
     }
 
-    input.error, 
-    textarea.error, 
+    input.error,
+    textarea.error,
     select.error {
       border: $border-width solid $danger;
       outline: $border-width solid $danger;
@@ -204,8 +204,8 @@ form {
 
 // BUTTONS
 //
-.btn, 
-form input[type=submit], 
+.btn,
+form input[type=submit],
 form button {
   font-weight: $btn-font-weight;
   text-transform: uppercase;
@@ -239,8 +239,8 @@ form button {
 
 // BUTTONS - IN MAIN
 //
-//.main .btn, 
-.main input[type=submit], 
+//.main .btn,
+.main input[type=submit],
 .main button {
   @extend .btn, .btn-primary;
 }
@@ -447,7 +447,7 @@ $webform-border-radius: 7px;
 
   // Textarea (text format wrapper)
   .text-format-wrapper {
-    margin-bottom: map-get($spacers, 4); 
+    margin-bottom: map-get($spacers, 4);
   }
 
   // File
@@ -581,8 +581,8 @@ $webform-border-radius: 7px;
   }
 }
 
-// WEBFORM - CREATE CAMPAIGN 
-// 
+// WEBFORM - CREATE CAMPAIGN
+//
 body.you-campaign .webform-client-form {
   // Partners
   .webform-component-radios[class*="webform-component--partners--is-partner"] {
@@ -1007,9 +1007,13 @@ table {
       }
     }
   }
+
+  // Temporarily hide content that is not ready
+  .set-up-by { display: none; }
+  .body { display: none; }
 }
 
-// BLOCK - MAIN MENU FOOTER 
+// BLOCK - MAIN MENU FOOTER
 //
 .block-main-menu-footer {
   .content {
@@ -1042,7 +1046,7 @@ table {
               color: $secondary;
             }
           }
-        } 
+        }
       }
     }
   }
@@ -1172,7 +1176,7 @@ header {
   @include media-breakpoint-up(lg) {
     .container {
       align-items: center;
-  
+
       .logo,
       .navbar-toggler,
       .navbar-collapse {
@@ -1251,7 +1255,7 @@ header nav.navbar .navbar-collapse .region-navigation {
   .block-menu,
   .block-locale {
     .content {
-      .dropdown-toggle, 
+      .dropdown-toggle,
       ul li a {
         @include title-link(18px, 22px);
         padding: $btn-padding-y 10px;
@@ -1337,7 +1341,7 @@ body.page-node-125 {
 //
 body.you-campaign {
   overflow-x: hidden;
-  
+
   h1.page-header {
     margin: 0 -999px;
     padding: map-get($spacers, 6) 0 math.div(map-get($spacers, 6),2);
@@ -1356,7 +1360,7 @@ body.you-campaign {
 
   .main-inner {
     padding-top: 0;
-  } 
+  }
 
   // Primary Tabs
   ul.tabs.primary {
