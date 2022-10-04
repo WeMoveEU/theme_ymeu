@@ -943,7 +943,8 @@ table {
 
         img {
           display: block;
-          margin-bottom: 1.5 * $grid-gutter-width;
+          margin-bottom: 0.5 * $grid-gutter-width;
+          aspect-ratio: 1.9;
         }
 
         .body,
@@ -963,6 +964,7 @@ table {
         .title {
           @extend .h5;
           color: $secondary;
+          height: $line-height-h5 * 4em;
         }
 
         .signatures-count {

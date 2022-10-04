@@ -9485,7 +9485,8 @@ table tr.odd {
 }
 .block-youmove-campaigns .content .row .col-12 img {
   display: block;
-  margin-bottom: 45px;
+  margin-bottom: 15px;
+  aspect-ratio: 1.9;
 }
 .block-youmove-campaigns .content .row .col-12 .body,
 .block-youmove-campaigns .content .row .col-12 .set-up-by {
@@ -9500,6 +9501,7 @@ table tr.odd {
 }
 .block-youmove-campaigns .content .row .col-12 .title {
   color: #24AECB;
+  height: 4.9em;
 }
 .block-youmove-campaigns .content .row .col-12 .signatures-count {
   font-size: 20px;
