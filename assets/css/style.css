@@ -68,38 +68,38 @@ h6, .h6, h5, .h5, .block-youmove-campaigns .content .row .col-12 .title, h4, .h4
 }
 
 h1, .h1 {
-  font-size: calc(1.575rem + 3.9vw);
+  font-size: calc(1.4375rem + 2.25vw);
 }
 @media (min-width: 1200px) {
   h1, .h1 {
-    font-size: 4.5rem;
+    font-size: 3.125rem;
   }
 }
 
 h2, .h2, body.you-campaign h1.page-header, body.you-campaign .page-header.h1 {
-  font-size: calc(1.45rem + 2.4vw);
+  font-size: calc(1.375rem + 1.5vw);
 }
 @media (min-width: 1200px) {
   h2, .h2, body.you-campaign h1.page-header, body.you-campaign .page-header.h1 {
-    font-size: 3.25rem;
+    font-size: 2.5rem;
   }
 }
 
 h3, .h3 {
-  font-size: calc(1.4rem + 1.8vw);
+  font-size: calc(1.3125rem + 0.75vw);
 }
 @media (min-width: 1200px) {
   h3, .h3 {
-    font-size: 2.75rem;
+    font-size: 1.875rem;
   }
 }
 
 h4, .h4 {
-  font-size: calc(1.3625rem + 1.35vw);
+  font-size: calc(1.3rem + 0.6vw);
 }
 @media (min-width: 1200px) {
   h4, .h4 {
-    font-size: 2.375rem;
+    font-size: 1.75rem;
   }
 }
 
@@ -5580,19 +5580,19 @@ fieldset:disabled .main button,
 }
 
 .fs-1 {
-  font-size: calc(1.575rem + 3.9vw) !important;
+  font-size: calc(1.4375rem + 2.25vw) !important;
 }
 
 .fs-2 {
-  font-size: calc(1.45rem + 2.4vw) !important;
+  font-size: calc(1.375rem + 1.5vw) !important;
 }
 
 .fs-3 {
-  font-size: calc(1.4rem + 1.8vw) !important;
+  font-size: calc(1.3125rem + 0.75vw) !important;
 }
 
 .fs-4 {
-  font-size: calc(1.3625rem + 1.35vw) !important;
+  font-size: calc(1.3rem + 0.6vw) !important;
 }
 
 .fs-5 {
@@ -8605,16 +8605,16 @@ fieldset:disabled .main button,
 }
 @media (min-width: 1200px) {
   .fs-1 {
-    font-size: 4.5rem !important;
+    font-size: 3.125rem !important;
   }
   .fs-2 {
-    font-size: 3.25rem !important;
+    font-size: 2.5rem !important;
   }
   .fs-3 {
-    font-size: 2.75rem !important;
+    font-size: 1.875rem !important;
   }
   .fs-4 {
-    font-size: 2.375rem !important;
+    font-size: 1.75rem !important;
   }
   .fs-5 {
     font-size: 1.625rem !important;
