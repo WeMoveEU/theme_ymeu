@@ -9843,6 +9843,9 @@ body.you-campaign h1.page-header span, body.you-campaign .page-header.h1 span {
 body.you-campaign .main-inner {
   padding-top: 0;
 }
+body.you-campaign .promo-video {
+  text-align: center;
+}
 body.you-campaign ul.tabs.primary {
   border: none;
   margin: 0 -999px;
